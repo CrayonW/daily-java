@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3c87592a-c774-47fe-8663-728783cd9bf9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/fastjson_1_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tomcat/Tomcat.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tomcat/src/MyTomcat/FindGirlServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tomcat/src/MyTomcat/MyRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tomcat/src/MyTomcat/MyResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tomcat/src/MyTomcat/MyServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tomcat/src/MyTomcat/MyTomcat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tomcat/src/MyTomcat/ServletMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tomcat/src/MyTomcat/ServletMappingConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daily/.idea/libraries/fastjson_1_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daily/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daily/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daily/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daily/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daily/bin/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daily/daily-java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daily/daily.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daily/entity/Joke.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daily/entity/JokeRsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daily/entity/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daily/entity/PicInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daily/entity/RGB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daily/entity/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daily/image/53771575_p0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daily/lib/fastjson-1.1.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daily/lib/mysql-connector-java-5.0.4-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daily/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daily/sock/invoke/Invoke.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daily/sock/provider/Provider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daily/startClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daily/util/CSVZipUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daily/util/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daily/util/EncodeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daily/util/JdbcUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daily/util/PicUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daily/util/WebUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dailyOne/dailyOne.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dailyOne/src/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dailyOne/src/HelloImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dailyOne/src/LogInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dailyOne/src/StaticProxiedHello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dailyOne/src/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tomcat/MyTomcat/FindGirlServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tomcat/MyTomcat/MyRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tomcat/MyTomcat/MyResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tomcat/MyTomcat/MyServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tomcat/MyTomcat/MyTomcat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tomcat/MyTomcat/ServletMapping.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tomcat/MyTomcat/ServletMappingConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/daily/.idea/libraries/fastjson_1_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/daily/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/daily/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/daily/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/daily/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/daily/bin/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/daily/daily-java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/daily/daily.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/daily/entity/Joke.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/daily/entity/JokeRsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/daily/entity/Location.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/daily/entity/PicInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/daily/entity/RGB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/daily/entity/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/daily/image/53771575_p0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/daily/lib/fastjson-1.1.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/daily/lib/mysql-connector-java-5.0.4-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/daily/main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/daily/sock/invoke/Invoke.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/daily/sock/provider/Provider$HandlerThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/daily/sock/provider/Provider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/daily/startClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/daily/util/Constants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/daily/util/EncodeUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/daily/util/JdbcUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/daily/util/PicUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/daily/util/WebUtil$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/daily/util/WebUtil$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/daily/util/WebUtil$TrustAllTrustManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/daily/util/WebUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/dailyOne/Hello.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/dailyOne/HelloImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/dailyOne/LogInvocationHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/dailyOne/StaticProxiedHello.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/dailyOne/main.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1700347377">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="35" />
+          <entry key="jpg" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="1" />
+          <entry key="JAVA" value="35" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="3853" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="3853" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Constants.java" />
+        <option value="$PROJECT_DIR$/util/Constants.java" />
+        <option value="$PROJECT_DIR$/util/WebUtil.java" />
+        <option value="$PROJECT_DIR$/util/JdbcUtil.java" />
+        <option value="$PROJECT_DIR$/bin/db.properties" />
+        <option value="$PROJECT_DIR$/entity/Result.java" />
+        <option value="$PROJECT_DIR$/entity/JokeRsp.java" />
+        <option value="$PROJECT_DIR$/entity/Joke.java" />
+        <option value="$PROJECT_DIR$/startClass.java" />
+        <option value="$PROJECT_DIR$/entity/PicInfo.java" />
+        <option value="$PROJECT_DIR$/entity/RGB.java" />
+        <option value="$PROJECT_DIR$/entity/Location.java" />
+        <option value="$PROJECT_DIR$/util/PicUtil.java" />
+        <option value="$PROJECT_DIR$/main.java" />
+        <option value="$PROJECT_DIR$/util/ExcelUtil.java" />
+        <option value="$PROJECT_DIR$/daily/main.java" />
+        <option value="$PROJECT_DIR$/dailyOne/src/entity/Hello.java" />
+        <option value="$PROJECT_DIR$/dailyOne/src/entity/HelloImp.java" />
+        <option value="$PROJECT_DIR$/dailyOne/src/entity/StaticProxiedHello.java" />
+        <option value="$PROJECT_DIR$/dailyOne/src/entity/LogInvocationHandler.java" />
+        <option value="$PROJECT_DIR$/dailyOne/src/LogInvocationHandler.java" />
+        <option value="$PROJECT_DIR$/dailyOne/src/main.java" />
+        <option value="$PROJECT_DIR$/dailyOne/src/Hello.java" />
+        <option value="$PROJECT_DIR$/dailyOne/src/HelloImp.java" />
+        <option value="$PROJECT_DIR$/dailyOne/src/StaticProxiedHello.java" />
+        <option value="$PROJECT_DIR$/daily/sock/Provider.java" />
+        <option value="$PROJECT_DIR$/daily/sock/provider/Provider.java" />
+        <option value="$PROJECT_DIR$/daily/sock/invoke/Invoke.java" />
+        <option value="$PROJECT_DIR$/Tomcat/src/Java/MyResponse.java" />
+        <option value="$PROJECT_DIR$/Tomcat/src/Java/MyServlet.java" />
+        <option value="$PROJECT_DIR$/Tomcat/src/Java/FindGirlServlet.java" />
+        <option value="$PROJECT_DIR$/Tomcat/src/Java/ServletMapping.java" />
+        <option value="$PROJECT_DIR$/Tomcat/src/Java/MyTomcat.java" />
+        <option value="$PROJECT_DIR$/Tomcat/src/Java/MyRequest.java" />
+        <option value="$PROJECT_DIR$/Tomcat/src/Java/ServletMappingConfig.java" />
+        <option value="$PROJECT_DIR$/Tomcat/src/MyTomcat/ServletMappingConfig.java" />
+        <option value="$PROJECT_DIR$/Tomcat/src/MyTomcat/MyTomcat.java" />
+        <option value="$PROJECT_DIR$/Tomcat/src/MyTomcat/MyRequest.java" />
+        <option value="$PROJECT_DIR$/Tomcat/src/MyTomcat/FindGirlServlet.java" />
+        <option value="$PROJECT_DIR$/Tomcat/src/MyTomcat/MyResponse.java" />
+        <option value="$PROJECT_DIR$/daily/util/CSVZipUtil.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="775" />
+    <option name="y" value="72" />
+    <option name="width" value="1750" />
+    <option name="height" value="995" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="daily-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="daily" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="daily-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="daily" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="Jdb&#9;FILE&#9;file://E:/daily-java/util/JdbcUtil.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539609619719" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="D:/EGDownloads/apache-tomcat-7.0.91-src" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.29587156" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\daily-java\lib" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="util" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\daily-java\bin" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MyTomcat">
+    <configuration name="Invoke" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sock.invoke.Invoke" />
+      <module name="daily" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sock.invoke.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTomcat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyTomcat.MyTomcat" />
+      <module name="Tomcat" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MyTomcat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Provider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sock.provider.Provider" />
+      <module name="daily" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sock.provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main" />
+      <module name="dailyOne" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main" />
+      <module name="daily" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.main" />
+      <item itemvalue="Application.main (1)" />
+      <item itemvalue="Application.Provider" />
+      <item itemvalue="Application.Invoke" />
+      <item itemvalue="Application.MyTomcat" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyTomcat" />
+        <item itemvalue="Application.Invoke" />
+        <item itemvalue="Application.Provider" />
+        <item itemvalue="Application.main (1)" />
+        <item itemvalue="Application.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c87592a-c774-47fe-8663-728783cd9bf9" name="Default" comment="" />
+      <created>1534324161172</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534324161172</updated>
+      <workItem from="1534324205585" duration="1596000" />
+      <workItem from="1534329631090" duration="6345000" />
+      <workItem from="1534382889716" duration="2131000" />
+      <workItem from="1534400360211" duration="608000" />
+      <workItem from="1534410265896" duration="3407000" />
+      <workItem from="1534492564151" duration="911000" />
+      <workItem from="1534756905079" duration="811000" />
+      <workItem from="1534820160104" duration="1289000" />
+      <workItem from="1534899053045" duration="5405000" />
+      <workItem from="1534924581498" duration="1413000" />
+      <workItem from="1535529244022" duration="764000" />
+      <workItem from="1536557985666" duration="45000" />
+      <workItem from="1537162833039" duration="1475000" />
+      <workItem from="1537273475915" duration="40000" />
+      <workItem from="1538096488356" duration="6397000" />
+      <workItem from="1538110916650" duration="662000" />
+      <workItem from="1539085533817" duration="1791000" />
+      <workItem from="1539413140155" duration="2919000" />
+      <workItem from="1539564905381" duration="600000" />
+      <workItem from="1539582476506" duration="1367000" />
+      <workItem from="1539592643579" duration="2428000" />
+      <workItem from="1539598770791" duration="4762000" />
+      <workItem from="1539864687606" duration="244000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="47410000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2386059" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="JRebel" order="5" side_tool="true" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44475922" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6203966" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.42553192" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.22237961" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JRebel Executor" order="12" />
+      <window_info anchor="bottom" id="JRebel Console" order="13" side_tool="true" weight="0.26345608" />
+      <window_info anchor="bottom" id="Tail" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/util/WebUtil.java" />
+    <entry file="file://$PROJECT_DIR$/util/Constants.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="2215" column="24" selection-start-line="2215" selection-start-column="24" selection-end-line="2215" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/BaiduNetdiskDownload/SpringJDBC/mysql-connector-java-5.0.4-bin/com/mysql/jdbc/Driver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/EncodeUtil.java" />
+    <entry file="file://$PROJECT_DIR$/entity/Result.java" />
+    <entry file="file://$PROJECT_DIR$/entity/Joke.java" />
+    <entry file="file://$PROJECT_DIR$/bin/db.properties" />
+    <entry file="file://$PROJECT_DIR$/util/JdbcUtil.java" />
+    <entry file="file://$PROJECT_DIR$/entity/JokeRsp.java" />
+    <entry file="file://$PROJECT_DIR$/entity/RGB.java" />
+    <entry file="file://$PROJECT_DIR$/entity/Location.java" />
+    <entry file="file://$PROJECT_DIR$/main.java" />
+    <entry file="file://$PROJECT_DIR$/util/ExcelUtil.java" />
+    <entry file="file://$PROJECT_DIR$/entity/PicInfo.java" />
+    <entry file="file://$PROJECT_DIR$/util/PicUtil.java" />
+    <entry file="file://$PROJECT_DIR$/startClass.java" />
+    <entry file="file://$PROJECT_DIR$/entity/User.java" />
+    <entry file="file://$PROJECT_DIR$/dailyOne/src/entity.java" />
+    <entry file="file://$PROJECT_DIR$/daily/image/53771575_p0.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daily/startClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-237">
+          <caret line="21" column="55" lean-forward="true" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="62" column="41" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="698" column="35" lean-forward="true" selection-start-line="698" selection-start-column="35" selection-end-line="698" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/InvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="89" column="6" lean-forward="true" selection-start-line="89" selection-start-column="6" selection-end-line="89" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daily/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daily/util/PicUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dailyOne/src/Hello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dailyOne/src/HelloImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dailyOne/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dailyOne/src/LogInvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dailyOne/src/StaticProxiedHello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daily/Invoker.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/net/ServerSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="126" column="11" selection-start-line="126" selection-start-column="11" selection-end-line="126" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/DataInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="562" column="24" selection-start-line="562" selection-start-column="24" selection-end-line="562" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daily/sock/provider/Provider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daily/sock/invoke/Invoke.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/StringBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="267" column="37" selection-start-line="267" selection-start-column="37" selection-end-line="267" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tomcat/src/MyTomcat/MyRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tomcat/src/MyTomcat/MyServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tomcat/src/MyTomcat/FindGirlServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tomcat/src/MyTomcat/ServletMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tomcat/src/MyTomcat/ServletMappingConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tomcat/src/MyTomcat/MyTomcat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="58" column="61" selection-start-line="58" selection-start-column="61" selection-end-line="58" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tomcat/src/MyTomcat/MyResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daily/util/CSVZipUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.29587156" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.29587156" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>fastjson-1.1.9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.29587156" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.29587156" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Tomcat</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.29587156" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7 (1)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>fastjson-1.1.9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.29587156" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
