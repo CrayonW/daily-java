@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Tomcat/Tomcat.iml" filepath="$PROJECT_DIR$/Tomcat/Tomcat.iml" />
       <module fileurl="file://$PROJECT_DIR$/daily/daily.iml" filepath="$PROJECT_DIR$/daily/daily.iml" />
       <module fileurl="file://$PROJECT_DIR$/dailyOne/dailyOne.iml" filepath="$PROJECT_DIR$/dailyOne/dailyOne.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leetCode/leetCode.iml" filepath="$PROJECT_DIR$/leetCode/leetCode.iml" />
     </modules>
   </component>
 </project>
